@@ -1,6 +1,7 @@
 # Full Stack (Next.Js / GraphQL / Sequelize) boilerplate
 
 Boilerplate for a Full Stack website using the above technologies.
+
 Based on https://github.com/thomasreinecke/graphql-sequelize-pg
 
 ## Installation & Start
