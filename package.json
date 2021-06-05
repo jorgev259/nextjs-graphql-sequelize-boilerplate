@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "concurrently": "^5.3.0",
+        "cross-env": "^7.0.3"
+    },
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development concurrently -c \"blue,magenta\" \"yarn:backend\" \"yarn:frontend\"",
+        "backend": "cd backend && yarn dev",
+        "frontend": "cd frontend && yarn dev",
+        "install-dev": "concurrently -c \"blue,magenta\" \"yarn -D\" \"yarn:install-backend\" \"yarn:install-frontend\"",
+        "install-backend": "cd backend && yarn",
+        "install-frontend": "cd frontend && yarn"
+    }
+}
