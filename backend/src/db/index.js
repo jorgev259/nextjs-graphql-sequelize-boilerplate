@@ -12,7 +12,7 @@ const db = new Sequelize(
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     dialect: process.env.DB_DIALECT,
-    database: process.env.DB_DATABASE
+    schema: process.env.DB_SCHEMA
   })
 console.log(`🚀 sequelize ORM connected to ${process.env.DB_DIALECT} @ ${process.env.DB_HOST}:${process.env.DB_PORT}`)
 

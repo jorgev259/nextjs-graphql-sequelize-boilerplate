@@ -1,18 +1,20 @@
-// import { initializeApollo, addApolloState } from '../lib/apolloClient'
-
 const IndexPage = () => (
-  <body>
-    123
-  </body>
+  <div className='App'>
+    <header className='App-header'>
+      <img src='logo.png' className='App-logo' alt='logo' />
+      <p>
+        Edit <code>src/App.js</code> and save to reload.
+      </p>
+      <a
+        className='App-link'
+        href='https://reactjs.org'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        Learn React
+      </a>
+    </header>
+  </div>
 )
-
-/* export async function getStaticProps () {
-  const apolloClient = initializeApollo()
-
-  return await apolloClient.query({
-    query: ALL_POSTS_QUERY,
-    variables: allPostsQueryVars
-  })
-} */
 
 export default IndexPage
